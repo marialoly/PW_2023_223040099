@@ -28,7 +28,7 @@ require('partials/navbar.php');
 .login-form{
     width: 100%;
     height: 89vh;
-    background-image: url(img/eskrim.jpeg);
+    background-image: url(img/bgg.jpg);
     padding-top: 50px;
     padding-bottom: 50px;
     background-size: cover;

@@ -1,5 +1,5 @@
 <?php require('functions.php') ?>
-<?php $title='Menu';  ?>
+<?php $title='Kuliner';  ?>
 <?php
 $menu = query("SELECT * FROM menu ");
  ?>

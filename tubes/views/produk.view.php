@@ -1,6 +1,5 @@
 <?php 
 require('admin.php');
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +9,6 @@ require('admin.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produk</title>
 </head>
-<body>
   <table class="table">
     <thead>
       <tr>
@@ -35,7 +33,7 @@ require('admin.php');
         </td>
           <td>
             <a href="ubah.php?id_menu=<?= $menu['id_menu']; ?>" onclick="return confirm ('Ubah data?')">Ubah</a> |
-            <a href="hapus.php?id_menu=<?= $user['id_menu']; ?>" onclick="return confirm ('yakin ingin menghapus?')">Hapus</a>
+            <a href="hapus.php?id_menu=<?= $menu['id_menu']; ?>" onclick="return confirm ('yakin ingin menghapus?')">Hapus</a>
           </td>
         </tr>
         <?php endforeach; ?>
@@ -48,5 +46,3 @@ require('admin.php');
     </button>
     </li>
       </ul>
-</body>
-</html>

@@ -20,9 +20,9 @@ if(isset($_POST['submit'])) {
       echo "<script>alert('Login Berhasil!');</script>";
 
       if($user['level'] == 'admin'){
-          echo "<meta http-equiv='refresh' content='0; url=admin.php'>";
+          echo "<meta http-equiv='refresh' content='0; url=produk.php'>";
       } else {
-          echo "<meta http-equiv='refresh' content='0; url=index.php'>";
+          echo "<meta http-equiv='refresh' content='0; url=user.php'>";
       }
   } else {
       echo "<script type='text/javascript'>alert('username dan password salah!');</script>";

@@ -16,8 +16,8 @@ $resto = query("SELECT * FROM resto ");
     </div>
     <section class="row" style="padding: 50px;" id="menu">
         <?php foreach ($resto as $item) { ?>
-      <div class="col-md-4 py-15 py-md-15" style="margin-bottom: 15px;" >
-        <div class="card" style="width: 20rem; height:100%; background-color: #F5F5DC;">
+      <div class="col-md-4 py-md-15" style="margin-bottom: 15px;" >
+        <div class="card" style="width: 23rem; height:100%; background-color: #F5F5DC;">
     
           <div class="card-title" style="margin: 1px;">
           <img src=img/<?= $item['gambar']; ?> alt="Poster" style="margin: 5px; width: 95%; position: center;">
